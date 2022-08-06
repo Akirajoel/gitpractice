@@ -1,0 +1,76 @@
+:w --> save to a file:t out of editor file:QW
+:q! --> quit out of editor without saving file
+w --> move one word forward at a time in file
+b --> move one word back at a time in file
+:wq --> save file and quit editor
+:1,5y --> yank (copy) lines 1 through 5
+:1,5d --> cut lines 1 through 5
+$ --> move to end of line in file
+0 --> move to the beginning of the line in file
+H --> moves to top of file (think H for "high")
+M --> moves to middle of file (think M for "middle")
+L --> moves to low part of file (think L for "low")
+ctrl + f --> move forward in file (autoscroll down)
+ctrl + b --> move back in file (autoscroll up)
+:45 --> move to line 45 in file
+:/text --> search for occurences of text in file
+G --> move to end of file
+2G --> move to 2nd line of file
+a --> move cursor to the right one and enter editor into insert mode
+I --> move to beginning of line and enter editor into insert mode
+A --> move cursor to end of line and enter editor into insert mode
+dd --> delete current line
+d$ --> delete from current position to end of file
+d0 --> delete from current position to beginning of file
+u --> undo
+ctrl + shift + r --> redoctrl + b --> move back in file (autoscroll up)
+:45 --> move to line 45 in file
+:/text --> search for occurences of text in file
+G --> move to end of file
+2G --> move to 2nd line of file
+a --> move cursor to the right one and enter editor into insert mode
+I --> move to beginning of line and enter editor into insert mode
+A --> move cursor to end of line and enter editor into insert mode
+dd --> delete current line
+d$ --> delete from current position to end of file
+d0 --> delete from current position to beginning of file
+u --> undo
+ctrl + shift + r --> redo
+vim -O --> open multiple files split vertically
+ctrl + w + l --> move to right vertically split window
+ctrl + w + h --> move to left vertically split window
+:vertical resize 80 --> resize current window to 80 pixes width
+:vertical resize +5 --> resize current window width by 5 pixes
+o --> new line below cursor (think "open up" the text)
+O --> new line above cursor (think "open up" the text editor)
+ctrl + v --> enter into visual mode
+i --> enter into insert mode
+mygitpractice.txt[+] [unix] (05:29 01/01/1970)                         26,26 41%
+-- INiqqqqXS
+vim -O --> open multiple files split vertically
+ctrl + w + l --> move to right vertically split window
+ctrl + w + h --> move to left vertically split window
+:vertical resize 80 --> resize current window to 80 pixes width
+:vertical resize +5 --> resize current window width by 5 pixes
+o --> new line below cursor (think "open up" the text)
+O --> new line above cursor (think "open up" the text editor)
+ctrl + v --> enter into visual mode
+i --> enter into insert mode
+:s/text1/text2/g --> replace all text1 with text2 in file on current line (think "global" for g)
+:%s/text1/text2/g --> replace all text1 with text2 in file (think "global" for g)
+:%s/text1/text2 --> replace first text1 with text2 in file
+:s/text1/text2 --> replace first text1 with text2 in file on current line
+ctrl + shift + p --> paste yanked or copied text 42: :set nu --> display line numbers in vim 43: set nonu --> turn off display line number
+:set paste --> format text for paste into file
+:set nopaste --> turn off format text for pasting
+ctrl + v + > --> shift selected lines one tab indentation
+ctrl + v + shift + i + esc --> comment selected lines
+ctrl + v + x --> uncomment selected lines
+:%s/text1//g --> delete all occurrences of text1 file
+:s/text1//g --> delete all occurrences of text1 in current line of file
+:color blue --> change background color of screen to blue
+:%s/search_word//gn --> count number of occurences of search_word in file
+:s/search_word//gn --> count number of occurences of search_word in current line
+:color blue --> changes vim color scheme to blue theme
+:color default --> default vim color scheme to default theme
+ctrl + shift + o (ctrl + O) --> return to previous location. Think "original" fo
