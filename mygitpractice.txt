@@ -45,9 +45,6 @@ o --> new line below cursor (think "open up" the text)
 O --> new line above cursor (think "open up" the text editor)
 ctrl + v --> enter into visual mode
 i --> enter into insert mode
-mygitpractice.txt[+] [unix] (05:29 01/01/1970)                         26,26 41%
--- INiqqqqXS
-vim -O --> open multiple files split vertically
 ctrl + w + l --> move to right vertically split window
 ctrl + w + h --> move to left vertically split window
 :vertical resize 80 --> resize current window to 80 pixes width
